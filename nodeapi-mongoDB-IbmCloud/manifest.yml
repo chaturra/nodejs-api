@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu.bluemix
+  name: task
+  host: task
+  disk_quota: 1024M
+  services:
+    - task_db

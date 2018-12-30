@@ -1,0 +1,29 @@
+{
+  "name": "tasktracker",
+  "version": "1.0.0",
+  "description": "task tracker",
+  "main": "app.js",
+  "engines": {
+    "node": ">8.9.3",
+    "npm": ">=5.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Rahul Chaturvedi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cfenv": "^1.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^5.1.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  },
+  "devDependencies": {}
+}
